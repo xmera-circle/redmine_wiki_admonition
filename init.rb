@@ -5,10 +5,10 @@ require_dependency 'admonition_hooks'
 
 Redmine::Plugin.register :redmine_wiki_admonition do
   name        'Redmine Wiki Admonitions'
-  author      'Grzegorz Rajchman'
+  author      'Grzegorz Rajchman, Liane Hampe'
   author_url  'https://github.com/mrliptontea'
   description 'Adds macros for simple admonition blocks'
-  version     '0.0.1'
+  version     '0.1.0'
 
   RedCloth3::ALLOWED_TAGS << 'div'
 
