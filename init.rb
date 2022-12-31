@@ -7,5 +7,5 @@ Redmine::Plugin.register :redmine_wiki_admonition do
   author      'Grzegorz Rajchman, Liane Hampe, xmera Solutions GmbH'
   author_url  'https://github.com/mrliptontea'
   description 'Adds macros for simple admonition blocks'
-  version     '0.1.0'
+  version     '0.1.1'
 end
