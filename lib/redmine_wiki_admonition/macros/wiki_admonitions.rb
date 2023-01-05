@@ -5,7 +5,7 @@ module RedmineWikiAdmonition
   # Registration of wiki admonition macros
   #
   module Macros
-    RedCloth3::ALLOWED_TAGS << 'div'
+    RedCloth3::ALLOWED_TAGS << 'div' unless Rails.env.test?
 
     Redmine::WikiFormatting::Macros.register do
       %i[note tip important danger].each do |admonition|
