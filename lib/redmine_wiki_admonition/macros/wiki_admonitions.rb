@@ -11,10 +11,10 @@ module RedmineWikiAdmonition
       Redmine::WikiFormatting::Macros.register do
         %i[note tip important danger].each do |admonition|
           desc "Adds a `#{admonition}` block\n" \
-               "Usage:\n" \
-               "<pre>{{#{admonition}(#{admonition.upcase})\n" \
-               "This is a #{admonition} admonition.\n" \
-               "}}</pre>\n"
+               "Example:\n" \
+               "{{#{admonition}(#{admonition.upcase})\n" \
+               "Put your content here.\n" \
+               "}}\n"
           macro admonition, parse_args: false do |obj, args, text|
             body = (text.presence || args)
             head = body == args ? nil : args
