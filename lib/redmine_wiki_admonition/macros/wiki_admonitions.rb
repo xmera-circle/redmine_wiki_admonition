@@ -10,7 +10,7 @@ module RedmineWikiAdmonition
 
       Redmine::WikiFormatting::Macros.register do
         %i[note tip important danger].each do |admonition|
-          desc "Adds a `#{admonition}` block\n" \
+          desc "Adds `#{admonition}` block\n" \
                "Example:\n" \
                "{{#{admonition}(#{admonition.upcase})\n" \
                "Put your content here.\n" \

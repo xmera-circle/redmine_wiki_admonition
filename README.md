@@ -2,7 +2,7 @@
 
 Adds macros for simple admonition blocks for Redmine's wiki
 
-![Redmine Plugin Version](https://img.shields.io/badge/Redmine_Plugin-v0.1.2-red) ![Redmine Version](https://img.shields.io/badge/Redmine-v5.0.x-blue) ![Language Support](https://img.shields.io/badge/Languages-independent-green) ![Version Stage](https://img.shields.io/badge/Stage-release-important)
+![Redmine Plugin Version](https://img.shields.io/badge/Redmine_Plugin-v0.1.3-red) ![Redmine Version](https://img.shields.io/badge/Redmine-v5.0.z-blue) ![Language Support](https://img.shields.io/badge/Languages-independent-green) ![Version Stage](https://img.shields.io/badge/Stage-release-important)
 
 The Redmine Wiki Admonition plugin is a Redmine plugin allowing any user to add side content without interrupting the main flow of the wiki text.
 
