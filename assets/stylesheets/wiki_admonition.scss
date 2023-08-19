@@ -1,13 +1,13 @@
-$admonition-note-color:         #1f83b4;
-$admonition-danger-color:       #d63a3a;
+$admonition-note-color:         #2974BD;
+$admonition-danger-color:       #E03426;
 $admonition-important-color:    #ff7f0e;
-$admonition-tip-color:         #2ca030;
-$admonition-background-color: #f9f8f8;
+$admonition-tip-color:         #33A65C;
+$admonition-background-color: #f2f2f2;
 
 .admonition {
     margin: 20px 0;
     padding: 0px 20px 20px 20px;
-    border-radius: 3px;
+    border-radius: 10px;
     background: $admonition-background-color;
 
     &.note {
